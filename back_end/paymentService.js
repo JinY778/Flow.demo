@@ -13,8 +13,8 @@ function createPaymentData(amount, quantity) {
     currency: "GBP",
     reference: `ORD-${Date.now()}`,
     description: `Payment for ${quantity} Guitar${quantity > 1 ? "s" : ""}`,
-    success_url: "http://localhost:3000/?status=succeeded",
-    failure_url: "http://localhost:3000/?status=failed",
+    success_url: "https://flow-demo-ti8w.onrender.com/",
+    failure_url: "https://flow-demo-ti8w.onrender.com/",
     processing_channel_id: "pc_2e6wtxlfvedefhsxfw2fz77cyu",
     billing_descriptor: {
       name: "Guitar Shop",
